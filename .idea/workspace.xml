@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53f30ead-4b09-417d-b07a-83f47428506f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/CdpCommandsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/CdpGeolocationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/MobileEmulatorTest.java" afterDir="false" />
+    <list default="true" id="53f30ead-4b09-417d-b07a-83f47428506f" name="Changes" comment="mobile emulator, CDP commands, geolocation test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/NetworkLogActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +39,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/strdo/IdeaProjects/SeleniumFrameworkDesign&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/strdo/IdeaProjects/Selenium_Dev_Tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Selenium" />
@@ -67,6 +60,18 @@
       <option name="presentableId" value="Default" />
       <updated>1680706367941</updated>
     </task>
+    <task id="LOCAL-00001" summary="mobile emulator, CDP commands, geolocation test">
+      <created>1680814644978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680814644978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mobile emulator, CDP commands, geolocation test" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile emulator, CDP commands, geolocation test" />
   </component>
 </project>
