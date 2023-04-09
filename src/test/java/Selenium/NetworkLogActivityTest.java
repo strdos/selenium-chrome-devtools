@@ -41,12 +41,8 @@ public class NetworkLogActivityTest {
             }
         });
 
-
-
         driver.get("https://rahulshettyacademy.com/angularAppdemo/");
         driver.findElement(By.xpath("//button[@routerlink='/library']")).click();
-
         driver.close();
-
     }
 }
