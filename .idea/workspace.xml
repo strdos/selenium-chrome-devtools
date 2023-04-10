@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53f30ead-4b09-417d-b07a-83f47428506f" name="Changes" comment="add listeners for Network.requestWillBeSent, Network.responseReceived">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/NetworkMockTest.java" afterDir="false" />
+    <list default="true" id="53f30ead-4b09-417d-b07a-83f47428506f" name="Changes" comment="add intercept htpp request and change url (Fetch.requestPaused, Fetch.continueRequest)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/NetworkFailedRequestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/NetworkLogActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/NetworkLogActivityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +39,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/strdo/IdeaProjects/Selenium_Dev_Tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/strdo/IdeaProjects/Selenium_Dev_Tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Selenium" />
@@ -75,12 +74,31 @@
       <option name="project" value="LOCAL" />
       <updated>1681058920929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add intercept htpp request and change url (Fetch.requestPaused, Fetch.continueRequest)">
+      <created>1681075350032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681075350032</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mobile emulator, CDP commands, geolocation test" />
     <MESSAGE value="add listeners for Network.requestWillBeSent, Network.responseReceived" />
-    <option name="LAST_COMMIT_MESSAGE" value="add listeners for Network.requestWillBeSent, Network.responseReceived" />
+    <MESSAGE value="add intercept htpp request and change url (Fetch.requestPaused, Fetch.continueRequest)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add intercept htpp request and change url (Fetch.requestPaused, Fetch.continueRequest)" />
   </component>
 </project>
