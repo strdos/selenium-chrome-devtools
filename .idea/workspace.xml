@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53f30ead-4b09-417d-b07a-83f47428506f" name="Changes" comment="add Fetch.failRequest test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/NetworkBlockRequestTest.java" afterDir="false" />
+    <list default="true" id="53f30ead-4b09-417d-b07a-83f47428506f" name="Changes" comment="add blocking unwanted requests (Network.setBlockedURLs)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/NetworkSpeedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681146243128</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add blocking unwanted requests (Network.setBlockedURLs)">
+      <created>1681240954898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681240954898</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +114,7 @@
     <MESSAGE value="add listeners for Network.requestWillBeSent, Network.responseReceived" />
     <MESSAGE value="add intercept htpp request and change url (Fetch.requestPaused, Fetch.continueRequest)" />
     <MESSAGE value="add Fetch.failRequest test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Fetch.failRequest test" />
+    <MESSAGE value="add blocking unwanted requests (Network.setBlockedURLs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add blocking unwanted requests (Network.setBlockedURLs)" />
   </component>
 </project>
