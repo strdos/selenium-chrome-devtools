@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53f30ead-4b09-417d-b07a-83f47428506f" name="Changes" comment="add blocking unwanted requests (Network.setBlockedURLs)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/NetworkSpeedTest.java" afterDir="false" />
+    <list default="true" id="53f30ead-4b09-417d-b07a-83f47428506f" name="Changes" comment="add network speed test (Network.emulateNetworkConditions)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/BasicAuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/ConsoleLogsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +40,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/strdo/IdeaProjects/Selenium_Dev_Tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/strdo/IdeaProjects/Selenium_Dev_Tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Selenium" />
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681240954898</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add network speed test (Network.emulateNetworkConditions)">
+      <created>1681243211426</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681243211426</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +123,7 @@
     <MESSAGE value="add intercept htpp request and change url (Fetch.requestPaused, Fetch.continueRequest)" />
     <MESSAGE value="add Fetch.failRequest test" />
     <MESSAGE value="add blocking unwanted requests (Network.setBlockedURLs)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add blocking unwanted requests (Network.setBlockedURLs)" />
+    <MESSAGE value="add network speed test (Network.emulateNetworkConditions)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add network speed test (Network.emulateNetworkConditions)" />
   </component>
 </project>
